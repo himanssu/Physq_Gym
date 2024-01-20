@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@500&family=Playball&display=swap" rel="stylesheet">
+    <title>Physq Gym</title>
+<style>
+    body{
+        font-family:'Playball', Arial, Helvetica, sans-serif;    
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url("img.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .left{
+        font-family:'Playball', Arial, Helvetica, sans-serif;
+        color: rgb(183 28 28);
+        position: absolute;
+        /* border: 2px solid green; */
+        display: inline-block;  
+        left: 36px;
+        top: 12px; 
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    .left img{
+        width: 136px;
+    }
+    .mid{
+        font-size: 20px;
+        display: block;
+        /* border: 2px solid red; */
+        width: 500px;
+        margin: 12px auto;
+        text-decoration: none;
+        }
+    .right{
+        position: absolute;
+        /* border: 2px solid yellow; */
+        display: inline-block;
+        right: 18px;
+        top: 12px;
+        
+    }
+    .navbar li{
+        color: white;
+        display: inline-block;
+    }
+    .navbar li a{
+       
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: grey;
+    }
+    .btn{
+     
+        margin: 0px 9px;
+        background-color: rgb(138, 30, 30);
+        color: white;
+        cursor: pointer;
+        font-size: 15px;
+        border: 2px solid grey;
+        border-radius: 5px;
+    }
+    .btn:hover{
+        color: grey;
+    }
+    .container{
+        top: 184px;
+    position: absolute;
+    left: 89px;
+    display: inline-block;
+    font-size: 92px;
+    width: 30%;
+    color: #a71717;
+    }
+    .container1{
+    margin: 129px 78px 100px 1250px;
+    top: 191px;
+    width: 30%;
+    right: 47px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form1{
+
+   text-align: center !important;
+   margin-top: 10px;
+}  
+.form1 input{
+    padding: 3px;
+    margin: 4px;
+    display: inline-block;
+    width:310px;
+    text-align: center;
+  }
+  .container1 button{
+    margin-top: 8px;
+    width: 192px;
+    padding: 3px;
+  }
+
+</style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="https://i.pinimg.com/originals/cf/78/c9/cf78c96172bb2c979dd49e88dde4ad22.gif" alt="">
+            <div>BE STRONG</div>
+        </div>
+        <div class="mid"> <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="/about">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul></div>
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        The only bad workout is the one that didn't happen.
+    </div>
+    <div class="container1">
+        <h1>Filling the form is first step</h1>
+        <form action="noaction.php">
+            <div class="form1">
+                <input type="text" name="" placeholder="Enter your name">
+                <input type="number" age="" placeholder="Enter your Age">
+                <input type="text" name="" placeholder="Enter your Gender">
+                <input type="text" name="" placeholder="Enter your Address">
+                <input type="text" name="" placeholder="Enter your Mobile number">
+                <input type="text" name="" placeholder="Enter your Email ID">
+            </div>
+        </form>
+        <button class="btn">Submit</button>
+    </div>
+</body>
+</html>
